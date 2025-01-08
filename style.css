@@ -1,0 +1,116 @@
+body {
+   background-color: midnightblue;
+   color: magenta;
+   font-size: 24px;
+   font-family: Quicksand;
+}
+
+.text-center {
+   text-align: center;
+}
+.textHighlight {
+   font-size: 32px;
+   color: aqua;
+}
+.Header {
+   margin: 4rem;
+}
+
+.Calculator-Container {
+   margin: 4rem;
+   background-color: blueviolet;
+   padding: 2rem;
+   color: aqua;
+   border-radius: 2rem;
+}
+
+.Calculator-Display {
+   position: relative;
+   background-color: black;
+   border-radius: 1rem;
+   min-height: 4rem;
+   margin: 2rem 0rem 0.5rem 0rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Calclator-Dispay-Data {
+   color: aqua;
+   width: 90%;
+   text-align: end;
+   font-style: italic;
+   font-size: 40px;
+   font-weight: 700;
+   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+   letter-spacing: 0.2rem;
+   overflow-x: clip;
+   opacity: 100%;
+}
+
+.Calculator-Display-Shadow {
+   position: absolute;
+   width: 90%;
+   background-color: transparent;
+   border-radius: 1rem;
+   min-height: 4rem;
+   margin: 2rem 0rem 2rem 0rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow-x: clip;
+   opacity: 10%;
+}
+
+.Calclator-Dispay-Data-Shadow {
+   color: aqua;
+   text-align: end;
+   font-style: italic;
+   font-size: 40px;
+   font-weight: 700;
+   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+   letter-spacing: 0.2rem;
+}
+
+.Calculator-Display-Warning {
+   height: 2rem;
+   background-color: transparent;
+   text-align: end;
+   margin: 0.5rem 1rem 2rem 0rem;
+   color: magenta;
+   font-style: italic;
+   text-decoration-line: underline;
+}
+
+.Calculator-Buttons-Container {
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   gap: 0.2rem;
+}
+
+.Calculator-Button {
+   background-color: midnightblue;
+   display: inline-block;
+   cursor: pointer;
+   border-radius: 1rem;
+}
+.Calculator-Button:hover {
+   background-color: magenta;
+}
+
+.Calculator-Button > button {
+   width: 100%;
+   height: 100%;
+   border-radius: 1rem;
+   color: white;
+   background-color: transparent;
+   border: none;
+   display: inline-block;
+   text-align: center;
+   font-size: 26px;
+   padding: 1rem 2rem 1rem 2rem;
+}
+
+.Calculator-Button > button:disabled {
+   background-color: darkslategray;
+   color: gray;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Calculator - HTML CSS JS</title>
+      <link
+         rel="stylesheet"
+         href="./style.css"
+      />
+      <link
+         rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      />
+   </head>
+   <body>
+      <div class="Header">
+         <h1 class="text-center">
+            <span class="textHighlight">CALCULATOR</span> <br />
+            made using plain<br /><span class="textHighlight">HTML/CSS/JS</span>
+         </h1>
+      </div>
+      <div class="Calculator-Container text-center">
+         <h2>Online Calclator</h2>
+         <div class="Calculator-Display">
+            <div class="Calculator-Display-Shadow">
+               <p class="Calclator-Dispay-Data-Shadow">
+                  00000000000000000000000000000
+               </p>
+            </div>
+
+            <p
+               class="Calclator-Dispay-Data"
+               id="Calclator-Dispay-Data"
+            >
+               0
+            </p>
+         </div>
+         <div
+            class="Calculator-Display-Warning"
+            id="Calculator-Display-Warning"
+         ></div>
+
+         <div class="Calculator-Buttons-Container">
+            <div class="Calculator-Button">
+               <button
+                  onclick=" "
+                  disabled
+               >
+                  %
+               </button>
+            </div>
+            <div class="Calculator-Button">
+               <button
+                  onclick=" "
+                  disabled
+               >
+                  CE
+               </button>
+            </div>
+            <div class="Calculator-Button">
+               <button onclick=" clearInputValue()">C</button>
+            </div>
+            <div class="Calculator-Button">
+               <button onclick=" removeLastInputValue()">🔙</button>
+            </div>
+
+            <div class="Calculator-Button">
+               <button
+                  onclick=" "
+                  disabled
+               >
+                  1/x
+               </button>
+            </div>
+            <div class="Calculator-Button">
+               <button
+                  onclick=" "
+                  disabled
+               >
+                  x<sup>2</sup>
+               </button>
+            </div>
+            <div class="Calculator-Button">
+               <button
+                  onclick=" "
+                  disabled
+               >
+                  2&radic;x
+               </button>
+            </div>
+            <div class="Calculator-Button">
+               <button
+                  onclick=" "
+                  disabled
+               >
+                  &divide;
+               </button>
+            </div>
+
+            <div class="Calculator-Button">
+               <button onclick="addInputValue(7)">7</button>
+            </div>
+            <div class="Calculator-Button">
+               <button onclick="addInputValue(8)">8</button>
+            </div>
+            <div class="Calculator-Button">
+               <button onclick="addInputValue(9)">9</button>
+            </div>
+            <div class="Calculator-Button">
+               <button
+                  onclick=" "
+                  disabled
+               >
+                  x
+               </button>
+            </div>
+            <div class="Calculator-Button">
+               <button onclick="addInputValue(4)">4</button>
+            </div>
+            <div class="Calculator-Button">
+               <button onclick="addInputValue(5)">5</button>
+            </div>
+            <div class="Calculator-Button">
+               <button onclick="addInputValue(6)">6</button>
+            </div>
+            <div class="Calculator-Button">
+               <button
+                  onclick=" "
+                  disabled
+               >
+                  -
+               </button>
+            </div>
+            <div class="Calculator-Button">
+               <button onclick="addInputValue(1)">1</button>
+            </div>
+            <div class="Calculator-Button">
+               <button onclick="addInputValue(2)">2</button>
+            </div>
+            <div class="Calculator-Button">
+               <button onclick="addInputValue(3)">3</button>
+            </div>
+            <div class="Calculator-Button">
+               <button onclick="addition() ">+</button>
+            </div>
+
+            <div class="Calculator-Button">
+               <button
+                  onclick=" "
+                  disabled
+               >
+                  +/-
+               </button>
+            </div>
+            <div class="Calculator-Button">
+               <button onclick="addInputValue(0)">0</button>
+            </div>
+            <div class="Calculator-Button">
+               <button
+                  onclick=" "
+                  disabled
+               >
+                  .
+               </button>
+            </div>
+            <div class="Calculator-Button">
+               <button onclick="result()">=</button>
+            </div>
+         </div>
+      </div>
+
+      <script src="./script.js" />
+   </body>
+</html>
